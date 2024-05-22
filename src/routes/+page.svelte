@@ -29,7 +29,7 @@
 
 <div class="full-width content-grid py-32 bg-gradient-to-b from-dark-200 via-dark-50 via-50% to-white">
     <div class="breakouts">
-        <h2 class="sm:text-5xl text-3xl font-bold text-center">Revolutionize Fish Farming with our Robust Approach.</h2>
+        <h2 class="sm:text-4xl text-3xl font-bold text-center">Revolutionize Fish Farming with our Robust Approach.</h2>
         <div class="grid md:grid-cols-2 lg:grid-cols-7 gap-4 mt-16">
             <div class="lg:col-span-2 hover-card">
                 <img src="/images/fish-pond-net.webp" alt="Fish Pond" class="image-cover">
@@ -79,6 +79,21 @@
 </div>
 
 <Testimonials/>
+
+<div class="mt-12 mb-32 px-4 text-center">
+    <div class="w-full max-w-3xl mx-auto">
+        <h2 class="text-4xl font-bold mt-2 mb-6">Ready to transform your agri business?</h2>
+        <p class="px-4 leading-relaxed">
+            At Twewaayo Agri Business, we’re more than just a company—we’re your partners in growth. <br>Our passion for sustainable agriculture drives us to provide tailored solutions, quality inputs, and agile collaboration. From constructing efficient fish ponds to delivering nutritious feeds, we’re committed to your success. Let’s sow the seeds of abundance and transform your agri business into a thriving venture.
+        </p>
+        <p class="mb-8 mt-4 px-4 leading-relaxed">
+            Click <span class="text-pink-600 font-bold">“Get in Touch”</span> and let’s cultivate prosperity together!</p>
+        <div>
+            <a class="inline-block py-4 px-8 leading-none text-white bg-primary-800 hover:bg-secondary-600 rounded shadow text-sm font-bold"
+                href="/signup">Get in touch</a>
+        </div>
+    </div>
+</div>
 
 <style lang="scss">
 </style>
