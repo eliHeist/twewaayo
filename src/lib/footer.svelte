@@ -8,7 +8,7 @@
     <div class="py-16 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-16 justify-between">
         <!-- contact info -->
         <div class="contacts lg:col-span-3 xl:col-span-3 xl:order-2">
-            <div class="flex justify-around flex-wrap xl:grid xl:grid-cols-3">
+            <div class="flex lg:justify-evenly flex-wrap xl:grid xl:grid-cols-3">
                 <div class="flex gap-4 py-3">
                     <div class="icon aspect-square w-16 bg-grey-900 rounded-lg grid place-content-center">
                         <svg xmlns="http://www.w3.org/2000/svg" class="my-auto h-10" viewBox="0 0 67.475 88.785">

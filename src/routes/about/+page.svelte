@@ -1,0 +1,39 @@
+
+
+<section class="py-16">
+    <div class="grid gap-4 max-w-screen-md mx-auto">
+        <div>
+            <h2 class="font-bold text-primary-950 text-3xl mb-8 md:text-center">Company Background</h2>
+            <div>
+                <p>
+                    The company started as a mobile agriculture extension service unit in 2018 by <span title="Managing Director">Mr. Kikoyo Micheal.</span> <br><br>Initially only fish farming projects were handled until 2020 when adoption of integrated farming system was done and poultry farming was included successfully. <br><br>
+                    Due to lack of quality poultry and fish feeds with mpigi district,a poultry and animal feeds store was started in 2022 and registered with Uganda Registration Service Bureau (URSB) as TOFA QUALITY FEEDS. <br><br>
+                    Later the company was registered and licensed in 2023 with registration number 80034119838567.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb-16 lg:pt-16">
+    <div class="grid lg:grid-cols-2 gap-4 items-center">
+        <figure>
+            <img src="/images/farmer-produce.webp
+            " alt="Managing Director" class="object-cover max-h-[70vh] mx-auto">
+        </figure>
+        <div>
+            <h2 class="font-bold text-primary-950 text-3xl mb-8">Managing Director's Message</h2>
+            <div>
+                <p>
+                    Greetings from the Twewayo Agribusiness Company Limited Team.
+                    <br><br>
+                    As global population growth strains our limited land resources, the demand for food is rising. <br>To meet this challenge, highly trained agriculturalists are essential to help farmers adopt innovative farming techniques that maximize limited space and ensure the production of high-quality, safe food.
+                    <br><br>
+                    Twewayo Agribusiness is committed to supporting farmers in profitable farming. We train farmers in integrated agriculture systems, provide quality inputs for poultry and fish farming, and enhance value addition and marketing. This has made us a leading company in central Uganda.
+                    <br><br>
+                    Our goal is to increase farmers' production capacities and expand their markets through value addition and exports. Our team is dedicated to serving Ugandan farmers, especially smallholder farmers, to help them succeed.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

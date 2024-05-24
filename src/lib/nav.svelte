@@ -4,19 +4,27 @@
 <!-- component -->
 <header class="border-t-8 border-primary-900 full-width">
     <nav class="content-grid mx-auto px-6 py-3">
-        <div class="flex items-center justify-between">
-            <div class=" font-bold text-xl">
+        <div class="flex items-center justify-between bg-green-00 mt-8">
+            <div class="hidden md:block">
+                <ul class="flex items-center space-x-8">
+                    <li><a href="/" class="">Home</a></li>
+                    <li><a href="/about" class="">About</a></li>
+                    <li><a href="/services" class="">Services</a></li>
+                    <!-- <li><a href="#" class="">Contact</a></li> -->
+                </ul>
+            </div>
+            <div>
                 <a href="/">
                     <img src="/images/logo.png" alt="">
                 </a>
             </div>
             <div class="hidden md:block">
-                <ul class="flex items-center space-x-8">
-                    <li><a href="#" class="">Home</a></li>
-                    <li><a href="#" class="">About</a></li>
-                    <li><a href="#" class="">Services</a></li>
-                    <li><a href="#" class="">Contact</a></li>
-                </ul>
+                <a href="/contact/" class="arrow-button">
+                    Contact
+                    <div class="arrow-wrapper">
+                        <div class="arrow"></div>
+                    </div>
+                </a>
             </div>
             <div class="md:hidden">
                 <button class="outline-none mobile-menu-button">
