@@ -6,7 +6,7 @@
     <nav class="content-grid mx-auto px-6 py-3">
         <div class="flex items-center justify-between bg-green-00 mt-8">
             <div class="hidden md:block">
-                <ul class="flex items-center space-x-8">
+                <ul class="flex items-center space-x-8 text-lg font-medium">
                     <li><a href="/" class="">Home</a></li>
                     <li><a href="/about" class="">About</a></li>
                     <li><a href="/services" class="">Services</a></li>

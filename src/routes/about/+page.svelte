@@ -18,11 +18,10 @@
 <section class="pb-16 lg:pt-16">
     <div class="grid lg:grid-cols-2 gap-4 items-center">
         <figure>
-            <img src="/images/farmer-produce.webp
-            " alt="Managing Director" class="object-cover max-h-[70vh] mx-auto">
+            <img src="/images/director.jpg" alt="Managing Director" class="object-cover max-h-[70vh] mx-auto">
         </figure>
         <div>
-            <h2 class="font-bold text-primary-950 text-3xl mb-8">Managing Director's Message</h2>
+            <h2 class="font-bold text-primary-950 text-3xl mb-8">Featured Message</h2>
             <div>
                 <p>
                     Greetings from the Twewayo Agribusiness Company Limited Team.
@@ -33,6 +32,10 @@
                     <br><br>
                     Our goal is to increase farmers' production capacities and expand their markets through value addition and exports. Our team is dedicated to serving Ugandan farmers, especially smallholder farmers, to help them succeed.
                 </p>
+            </div>
+            <div class="grid border-l-4 border-primary-950 w-fit px-8 py-2 mt-8 bg-gradient-to-r from-primary-50 to-white">
+                <h3 class="font-semibold text-primary-950">Kikoyo Michael</h3>
+                <p class="italic text-sm">Managing Director</p>
             </div>
         </div>
     </div>
