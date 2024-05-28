@@ -47,7 +47,7 @@
 </script>
 
 <section class="pt-16 pb-32">
-    <h1>Gallery</h1>
+    <h1 class="text-3xl sm:text-4xl lg:text-5xl text-primary-950 font-bold text-center mb-16">Gallery</h1>
     <div class="gallery">
         {#each images as image}
             <img class="image" src="/img/{image}" alt="Image" on:click="{showFullImage}" />

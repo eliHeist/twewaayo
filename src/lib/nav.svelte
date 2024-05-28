@@ -2,22 +2,22 @@
 </script>
 
 <!-- component -->
-<header class="border-t-8 border-primary-900 full-width">
-    <nav class="content-grid mx-auto px-6 py-3">
-        <div class="flex items-center justify-between bg-green-00 mt-8">
+<header class="full-width sticky top-0 z-[99999]">
+    <nav class="flex justify-center content-grid px-6 pt-4">
+        <div class="bg-white outline outline-1 outline-primary-200 flex gap-x-16 items-center w-fit mx-auto px-3 py-2 rounded-full">
+            <div class="rounded-full transition-all hover:scale-150">
+                <a href="/">
+                    <img src="/images/logo.png" alt="" class="h-16">
+                </a>
+            </div>
             <div class="hidden md:block">
                 <ul class="flex items-center space-x-8 text-lg font-medium">
-                    <li><a href="/" class="">Home</a></li>
-                    <li><a href="/about" class="">About</a></li>
-                    <li><a href="/services" class="">Services</a></li>
-                    <li><a href="/gallery" class="">Gallery</a></li>
+                    <li><a href="/" id="home" class="transition-all hover:text-primary-600">Home</a></li>
+                    <li><a href="/about" id="about" class="transition-all hover:text-primary-600">About</a></li>
+                    <li><a href="/services" id="services" class="transition-all hover:text-primary-600">Services</a></li>
+                    <li><a href="/gallery" id="gallery" class="transition-all hover:text-primary-600">Gallery</a></li>
                     <!-- <li><a href="#" class="">Contact</a></li> -->
                 </ul>
-            </div>
-            <div>
-                <a href="/">
-                    <img src="/images/logo.png" alt="">
-                </a>
             </div>
             <div class="hidden md:block">
                 <a href="/contact/" class="arrow-button">

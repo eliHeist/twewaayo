@@ -3,12 +3,12 @@
 
 </script>
 
-<section class="full-width content-grid pt-20">
+<section class="full-width content-grid py-32">
     <h1 class="text-3xl sm:text-4xl lg:text-5xl text-primary-950 font-bold text-center" style="line-height: 1.5;">Cultivating A Sustainable Future <br> Through Modern Agriculture.</h1>
     <p class="text-center mt-8 mx-auto max-w-2xl">We guide you through all the steps of the Modern Farming Process, from Training, to construction, to inputs, to marketing and delivery.</p>
 </section>
 
-<section class="py-32">
+<section class="pb-32">
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:grid-rows-2 xl:grid-cols-9 gap-4">
         <div class="rounded-xl overflow-hidden min-h-96 bg-cover relative group col-span-2 row-span-2 lg:row-start-1 xl:col-span-3 xl:aspect-square" style="background-image: url('/images/poultry.webp');">
             <div class="absolute top-0 left-0 bottom-0 right-0 bg-gradient-to-t from-[rgba(0,0,0,0.9)] to-[rgba(0,0,0,0)] z-[1] transition-all duration-500 opacity-60 group-hover:opacity-100"></div>
