@@ -10,6 +10,7 @@
                     <li><a href="/" class="">Home</a></li>
                     <li><a href="/about" class="">About</a></li>
                     <li><a href="/services" class="">Services</a></li>
+                    <li><a href="/gallery" class="">Gallery</a></li>
                     <!-- <li><a href="#" class="">Contact</a></li> -->
                 </ul>
             </div>

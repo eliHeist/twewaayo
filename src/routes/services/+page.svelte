@@ -1,4 +1,4 @@
-
+<script></script>
 
 <section class="py-16">
     <h2 class="text-4xl font-semibold text-primary-950">
