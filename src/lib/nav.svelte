@@ -2,9 +2,9 @@
 </script>
 
 <!-- component -->
-<header class="full-width sticky top-0 z-[99999]">
+<header class="full-width sticky top-0 z-[999999]">
     <nav class="flex justify-center content-grid px-6 pt-4">
-        <div class="bg-white outline outline-1 outline-primary-200 flex gap-x-16 items-center w-fit mx-auto px-3 py-2 rounded-full">
+        <div class="bg-white outline outline-1 outline-primary-200 flex gap-x-16 items-center w-fit mx-auto p-2 rounded-full">
             <div class="rounded-full transition-all hover:scale-150">
                 <a href="/">
                     <img src="/images/logo.png" alt="" class="h-16">
