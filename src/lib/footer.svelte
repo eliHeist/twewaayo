@@ -90,9 +90,9 @@
             <h3 class="title text-lg text-white font-medium mb-8">Quick Links</h3>
             <ul class="grid grid-cols-2 gap-3">
                 <li><a href="/about/" class="">About Us</a></li>
-                <li><a href="/posts/" class="">Services</a></li>
+                <li><a href="/services/" class="">Services</a></li>
                 <li><a href="/contact/" class="">Contact Us</a></li>
-                <li><a href="/projects/" class="">Projects</a></li>
+                <li><a href="/gallery/" class="">Gallery</a></li>
             </ul>
         </div>
         <!-- recent -->

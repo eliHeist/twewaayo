@@ -1,10 +1,29 @@
-<script>
+<script lang="ts">
+    import { gsap } from "gsap";
+
+    function handleClick(event: PointerEvent) {
+        // console.log(event.x)
+        // console.log(event.y)
+        
+        const island = document.querySelector(".island") as HTMLDivElement
+
+        let timeline = gsap.timeline({ repeat: 0 })
+
+        timeline.to(island, {
+            scale: 1.2,
+            duration: 0.1
+        }).to(island, {
+            scale: 1,
+            duration: 0.1
+        })
+        timeline.play()
+    }
 </script>
 
 <!-- component -->
 <header class="full-width sticky top-0 z-[999999]">
     <nav class="flex justify-center content-grid px-6 pt-4">
-        <div class="bg-white outline outline-1 outline-primary-200 flex gap-x-16 items-center w-fit mx-auto p-2 rounded-full">
+        <div on:click="{handleClick}" class="island flex gap-x-16 items-center w-fit mx-auto p-2 rounded-full">
             <div class="rounded-full transition-all hover:scale-150">
                 <a href="/">
                     <img src="/images/logo.png" alt="" class="h-16">
@@ -66,4 +85,14 @@
 </header>
 
 <style lang="scss">
+    .island{
+        backdrop-filter: blur(16px) saturate(180%);
+        background-color: rgba(241, 243, 246, 0.75);
+        border: 1px solid rgba(255, 255, 255, 0.389);
+        transition: all .4s cubic-bezier(0.54,0.89,0.47,1.67);
+
+        &:hover {
+            column-gap: 5rem;
+        }
+    }
 </style>

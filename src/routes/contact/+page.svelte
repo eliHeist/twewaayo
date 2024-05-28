@@ -74,7 +74,7 @@
             <!-- Contact Form Container -->
             <div class="bg-primary-100 p-8 lg:p-12 text-center xl:col-span-2">
                 <!-- Contact Form Title -->
-                <h3 class="text-2xl font-bold md:text-3xl">Send a message</h3>
+                <h3 class="text-2xl font-bold md:text-3xl mb-8">Send a message</h3>
                 <!-- Contact Form -->
                 <form
                     class="mx-auto mb-4 max-w-sm text-left"
