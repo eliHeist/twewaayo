@@ -22,13 +22,18 @@
             });
         timeline.play();
     }
+
+    function handleNav(event: PointerEvent) {
+        collapse_mobile_nav = false
+        let checkbox = document.getElementById("checkbox") as HTMLInputElement
+        checkbox.checked = false
+    }
 </script>
 
 <!-- component -->
 <header class="full-width sticky top-0 z-[999999]">
     <nav class="flex justify-center content-grid px-6 pt-4">
-        <div
-            on:click="{handleClick}"
+        <div on:click="{handleClick}"
             class="island flex gap-x-16 items-center w-fit mx-auto p-2 rounded-full">
             <div class="rounded-full transition-all hover:scale-150">
                 <a href="/">
@@ -90,11 +95,11 @@
 <div aria-expanded="{collapse_mobile_nav}" class="mobile-sm md:hidden">
     <div class="wrapper">
         <menu>
-            <a class="link" href="/">Home</a>
-            <a class="link" href="/about">About</a>
-            <a class="link" href="/services">Services</a>
-            <a class="link" href="/gallery">Gallery</a>
-            <a href="/contact" class="arrow-button">
+            <a class="link" on:click="{handleNav}" href="/">Home</a>
+            <a class="link" on:click="{handleNav}" href="/about">About</a>
+            <a class="link" on:click="{handleNav}" href="/services">Services</a>
+            <a class="link" on:click="{handleNav}" href="/gallery">Gallery</a>
+            <a href="/contact" on:click="{handleNav}" class="arrow-button">
                 Contact
                 <div class="arrow-wrapper">
                     <div class="arrow"></div>
