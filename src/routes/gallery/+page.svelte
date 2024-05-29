@@ -73,6 +73,7 @@
             border-radius: .5rem;
             transition: all .5s ease-in-out;
             filter: brightness(.9);
+            background-color: var(--clr-primary-100);
             
             &:hover {
                 box-shadow: .15rem .25rem .25rem rgba(126, 136, 143, 0.3);
