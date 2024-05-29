@@ -61,7 +61,7 @@
                             class="fa-solid fa-phone text-4xl text-center text-primary-600"
                         ></i>
                         <div class="grid">
-                            <h6 class="font-bold text-primary-900">Email</h6>
+                            <h6 class="font-bold text-primary-900">Phone numbers</h6>
                             <p class="text-sm text-grey-700 grid">
                                 <a href="tel:+256752382640">+256 752 382 640</a>
                                 <a href="tel:+256757727826">+256 757 727 826</a>
