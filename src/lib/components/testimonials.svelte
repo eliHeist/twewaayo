@@ -44,7 +44,7 @@
                 <div class="h-full sm:p-6">
                     <div class="w-full md:flex">
                         <div class="relative mb-12 w-full max-w-[310px] md:mr-12 md:mb-0 md:max-w-[250px] lg:mr-14 lg:max-w-[280px] xl:max-w-[310px] 2xl:mr-16">
-                            <img src="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/image-01.jpg" alt="image" class="w-full" />
+                            <img src="/images/women-working-together.webp" alt="image" class="w-full" />
                         </div>
                         <div class="w-full">
                             <div>
