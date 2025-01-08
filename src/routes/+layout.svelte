@@ -3,6 +3,18 @@
     import Footer from "$lib/footer.svelte";
     import "../app.scss";
     import "@fortawesome/fontawesome-free/css/all.min.css";
+
+    import Lenis from 'lenis'
+
+    import { onMount } from 'svelte';
+
+    
+    onMount(() => {
+        // Initialize Lenis
+        const lenis = new Lenis({
+            autoRaf: true,
+        });
+    });
 </script>
 
 <svelte:head>
@@ -10,5 +22,5 @@
 </svelte:head>
 
 <Nav />
-<slot></slot>
+<slot/>
 <Footer/>

@@ -9,8 +9,8 @@
 </section>
 
 <section class="pb-32">
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:grid-rows-2 xl:grid-cols-9 gap-4">
-        <div class="rounded-xl overflow-hidden min-h-96 bg-cover relative group col-span-2 row-span-2 lg:row-start-1 xl:col-span-3 xl:aspect-square" style="background-image: url('/images/poultry.webp');">
+    <div class="grid grid-cols-2 md:grid-cols-3 md:h-[60vh] lg:h-[65vh] xl:h-[70vh] lg:grid-cols-4 lg:grid-rows-2 xl:grid-cols-9 gap-4">
+        <div class="rounded-xl overflow-hidden min-h-96 h-full bg-cover relative group col-span-2 row-span-2 lg:row-start-1 xl:col-span-3" style="background-image: url('/images/poultry.webp');">
             <div class="absolute top-0 left-0 bottom-0 right-0 bg-gradient-to-t from-[rgba(0,0,0,0.9)] to-[rgba(0,0,0,0)] z-[1] transition-all duration-500 opacity-60 group-hover:opacity-100"></div>
             <div class="absolute top-0 left-0 bottom-0 right-0 h-full w-full content p-4 z-[2] grid content-end">
                 <h3 class="font-semibold text-white text-2xl transition-all duration-500 translate-y-10 group-hover:translate-y-0">Poultry Farming</h3>
@@ -71,7 +71,7 @@
     <div class="breakouts">
         <h2 class="sm:text-4xl text-3xl font-bold text-center text-primary-950">Revolutionize Fish Farming with our Robust Approach.</h2>
         <div class="grid md:grid-cols-2 lg:grid-cols-7 gap-4 mt-16">
-            <div class="lg:col-span-2 hover-card">
+            <div class="lg:col-span-2 hover-card max-h-[75vh]">
                 <img src="/images/fish-pond-net.webp" alt="Fish Pond" class="image-cover">
                 <div class="top-drop"></div>
                 <div class="over-drop">
@@ -91,7 +91,7 @@
                     </div>
                 </div>
             </div>
-            <div class="lg:col-span-2 hover-card">
+            <div class="lg:col-span-2 hover-card max-h-[75vh]">
                 <img src="/images/fish-feeds.webp" alt="Fish Pond" class="image-cover">
                 <div class="top-drop"></div>
                 <div class="over-drop">
@@ -112,7 +112,7 @@
                 </div>
             </div>
             <div class="md:col-span-2 lg:col-span-3 relative hidden lg:grid">
-                <img src="/images/full-fish.webp" alt="Fish" class="w-full absolutes right-0">
+                <img src="/images/full-fish.webp" alt="Fish" class="h-full object-contain ml-auto max-h-[75vh]">
             </div>
         </div>
     </div>
